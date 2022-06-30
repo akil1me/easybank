@@ -36,7 +36,7 @@
 .hero__img {
   position: absolute;
   top: 0;
-  right: -200px;
+  right: -26%;
   width: 729px;
   height: 900px;
 }
@@ -45,6 +45,12 @@
   display: none;
   width: 327px;
   height: 402px;
+}
+
+@media only screen and (max-width:1343px) {
+  .hero {
+    background-size: 70%;
+  }
 }
 
 @media only screen and (max-width:1243px) {

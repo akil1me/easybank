@@ -1,0 +1,112 @@
+.why-easybank {
+  padding-top: 96px;
+  padding-bottom: 94px;
+  background-color: #F4F5F7;
+}
+
+.why-easybank__texts {
+  max-width: 635px;
+}
+
+.why-easybank__title {
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
+  margin-bottom: 16px;
+}
+
+.why-easybank__text {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+.why-easybank__list {
+  margin-top: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recom-item {
+  max-width: 255px;
+}
+
+.recom-item__title {
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.428571px;
+  color: #2D314D;
+  margin-top: 40px;
+}
+
+.recom-item__text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #9597A5;
+  margin-top: 26px;
+}
+
+@media only screen and (max-width:1000px) {
+  .why-easybank__texts {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .why-easybank__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .recom-item {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .recom-item:last-child {
+    margin: 0;
+  }
+
+
+}
+
+@media only screen and (max-width:500px) {
+  .why-easybank {
+    padding: 64px 0;
+  }
+
+  .why-easybank__title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 14px;
+  }
+
+  .why-easybank__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .why-easybank__list {
+    margin-top: 56px;
+  }
+
+  .recom-item {
+    margin-bottom: 32px;
+  }
+
+  .recom-item__title {
+    margin-top: 24px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .recom-item__text {
+    margin-top: 16px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
